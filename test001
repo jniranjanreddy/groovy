@@ -1,0 +1,12 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+192.168.56.60 docswarm01.nirulabs.com docswarm01
+192.168.56.61 docswarm02.nirulabs.com docswarm02
+192.168.56.62 docswarm03.nirulabs.com docswarm03
+192.168.56.20 dns-git.nirulabs.com    dns-git
+192.168.9.6 docswarm01.nirulabs.com docswarm01
+#192.168.9.98 minikube02.nirulabs.com minikube02
+192.168.9.98 control-plane.minikube.internal
+192.168.9.99 minikube03.nirulabs.com minikube03
+127.0.0.1	host.minikube.internal
+192.168.9.6	control-plane.minikube.internal
