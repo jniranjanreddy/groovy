@@ -14,7 +14,16 @@ class GroovyTut {
       println(name.replaceAll('groovy', 'python'))
       println("Groovy <=> groovy")
       printf("A %s string \n", name) //printf
-      
+      def string = "Hello"
+      if (string !=null && string.length()>0) {
+           result = 'Found'
+           println(result)
+              } else {
+          result = 'Not found'
+                     println(result)
+
+           }
+
       
    }
 
