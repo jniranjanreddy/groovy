@@ -1,5 +1,6 @@
 #!/usr/bin/env groovy
 
-new File("/etc/hosts").eachLine { line ->
+def myList[] = new File("/etc/hosts").eachLine { line ->
 //println(line)
 }
+

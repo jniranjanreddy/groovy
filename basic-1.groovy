@@ -10,10 +10,11 @@ class GroovyTut {
       //println("My name is: " +  name.toUpperCase())
       //println("My name is: " +  name.toLowerCase())
       //println("My name is: " +  name.length())
-      println(name.toList())
+      println(name.toList()) // to make list
       println(name.replaceAll('groovy', 'python'))
       println("Groovy <=> groovy")
       printf("A %s string \n", name) //printf
+      
       
    }
 
